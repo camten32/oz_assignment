@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        .목차 {
+            text-align: center;
+        }
+        .profile-container {
+            display: flex;
+            align-items: flex-start; /* 상단 정렬 */
+            gap: 20px; /* 사진과 표 사이의 간격 */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: xxx-large; border-bottom: 2px solid black; padding-bottom: 10px; margin-bottom: 20px;">
+    이력서
+    </h1>
+    <div class="profile-container">
+        <img src="KakaoTalk_20250830_165050693.jpg" alt="Profile Picture" style="width: 150px; height: 200px; object-fit: cover;">
+        <table border="1" style="width: 300px; border-collapse: collapse; margin-top: 20px; margin-left: auto; margin-right: 0; text-align: center;">
+            <tr>
+                <td class="목차" style="width: 30%; font-weight: bold;">이름</td>
+                <td style="width: 70%;">홍승완</td>
+            </tr>
+            <tr>
+                <td class="목차" style="font-weight: bold;">생년월일</td>
+                <td>1999년 8월 24일</td>
+            </tr>
+            <tr>
+                <td class="목차" style="font-weight: bold;">연락처</td>
+                <td>010-7231-7392</td>
+            </tr>
+            <tr>
+                <td class="목차" style="font-weight: bold;">이메일</td>
+                <td>camten32@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <h2 style="text-align: left; border-bottom: 2px solid rgb(230, 37, 37); padding-bottom: 10px; margin-top: 40px; margin-bottom: 20px;"> 
+        경력사항
+    </h2>
+    <table border width="30%">
+        <tr>
+            <th class="목차" style="font-weight: bold;">회사명</th>
+            <th class="목차" style="font-weight: bold;">근무기간</th>
+            <th class="목차" style="font-weight: bold;">직무</th>
+        </tr>
+        <tr>
+            <td class="목차">(주)케이프</td>
+            <td class="목차">2025년 9월 ~ <br>2026년 2월</td>
+            <td class="목차">도면관리</td>
+        </tr>
+    </table>
+    <h2 style="text-align: left; border-bottom: 2px solid rgb(230, 37, 37); padding-bottom: 10px; margin-top: 40px; margin-bottom: 20px;">
+        취미
+    </h2>
+    <ol>
+        <li>게임: 오버워치</li>
+        <li>운동: 격투기(킥복싱, 무에타이)</li>
+        <li>마블영화</li>
+    </ol>
+    <h2>제출</h2>
+    <form>
+        이름: <input type="text" placeholder="이름을 입력하세요">
+        이메일: <input type="email" placeholder="이메일을 입력하세요">
+        <button>이력서제출</button>
+    </form>
+    <a href="https://github.com/camten32/oz-ai-05">GitHub 저장소</a>
+</body>
+</html>
