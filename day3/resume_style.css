@@ -1,0 +1,51 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.github-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+.skill {
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.skill-list {
+    margin-bottom: 20px;
+}
+.list-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.submit {
+    width: 100%;           /* 폼의 너비를 100%로 잡되 */
+    max-width: 400px;      /* 최대 400px까지만 늘어나게 설정 */
+    
+    /* 2. 오른쪽 정렬을 위해 마진을 설정합니다 */
+    margin-left: 0;     /* 왼쪽 여백을 최대로 (오른쪽으로 밀어냄) */
+    margin-right: auto;       /* 오른쪽 여백은 없앰 */
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.table.table-bordered {
+    max-width: 500px !important;
+    width: 100% !important;
+}
+
+.contain {
+    max-width: 500px !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
